@@ -1,0 +1,15 @@
+.track-info-container{
+    background-color: #222;
+    border: 1px solid #555555;
+    color: #fff;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 28px;
+    width: 100%;
+}
+
+.track-info{
+    color: #b3b3b3;
+}

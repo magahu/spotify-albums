@@ -1,0 +1,26 @@
+.tracks-card{
+    border: 1px solid #555555;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.tracks-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.album-title{
+    height: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+.album-info{
+    display: flex;
+    margin: 0;
+}
+
+.album-info li{
+    margin: 1em;
+}

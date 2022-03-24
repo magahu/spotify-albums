@@ -1,0 +1,43 @@
+
+<a [routerLink]= "['', album.id]" class="tracks-link">
+    <div class="tracks-card">
+        <h2 class="album-title">{{album.name}}</h2>
+        <ul class="album-info">
+            <li *ngFor="let artist of album.artists"><small>{{artist.name}}</small></li>
+            <li><small>{{album.release_date | date: 'y'}}</small></li>
+            <li><small>{{album.total_tracks}} canciones</small></li>
+        </ul>
+
+        <img [src]="album.images[1].url"
+        [height]="album.images[1].height"
+        [width]="album.images[1].width">
+    </div>
+    
+</a>
+
+
+ <!-- tamaño mediano y chico
+ <img [src]="album.images[1].url"
+ [height]="album.images[1].height"
+ [width]="album.images[1].width">
+
+ <img [src]="album.images[2].url"
+ [height]="album.images[2].height"
+ [width]="album.images[2].width">-->
+
+ <!--
+
+album_type: string;
+    artists: Artist[];
+    external_urls: ExUrl;
+    href: string;
+    id: string;
+    images: Image[];
+    name: string;
+    release_date: string;
+    release_date_precision: string;
+    total_tracks: number
+    type: string;
+    uri: string;
+
+ -->

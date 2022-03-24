@@ -1,0 +1,9 @@
+<button [routerLink]= "['track', track.id]" class="track-info-container">
+    <small style="color: #b3b3b3;">{{track.track_number}}</small>
+    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+        <small>{{track.name}}</small>
+        <small style="color: #b3b3b3;">{{track.artists[0].name}}</small>
+    </div>
+    <small style="color: #b3b3b3;">{{track.duration_ms | date: 'm:ss'}}</small>
+</button>
+

@@ -1,0 +1,9 @@
+<form class="search-input">
+    <mat-icon>search</mat-icon>
+    <input type="text" 
+    [(ngModel)]="searchField" 
+    (change)="searchAlbums($event)" 
+    name="searchInput"
+    
+    placeholder="Artistas, canciones o albums">
+</form>

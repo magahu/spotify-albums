@@ -1,0 +1,10 @@
+<button class="track-info-container">
+    <small class="track-info">#</small>
+    <small class="track-info">TÍTULO</small>
+    <mat-icon class="track-info">watch_later</mat-icon>
+</button>
+<div  *ngFor="let track of tracksResponse.items">
+    <app-track [track]="track"></app-track>
+</div> 
+
+   

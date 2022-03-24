@@ -1,0 +1,20 @@
+<div class="track-detail">
+    <div class="main-info">
+        <img class="main-info-image" [src]="trackDetail.album.images[2].url">
+        <div class="main-info-text">
+            <h4>{{trackDetail.name}}</h4>
+            <span *ngIf="trackDetail.artists">
+                <p >{{trackDetail.artists[0].name}}</p>
+            </span>
+            
+        </div>
+    </div>
+    
+    <div class="player">
+        <mat-icon>play_circle_filled</mat-icon>
+        <hr>
+    </div>
+    <p>{{trackDetail.duration_ms | date: 'mm:ss'}}</p>
+</div>
+
+

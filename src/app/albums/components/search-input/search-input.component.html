@@ -1,0 +1,10 @@
+<h1 class="search-title">Buscar Albums:</h1>
+
+<form class="search-input">
+    <mat-icon>search</mat-icon>
+    <input type="text" 
+    [(ngModel)]="searchField" 
+    (change)="sendSearchField()" 
+    name="searchInput"
+    placeholder="Artistas, canciones o albums">
+</form>

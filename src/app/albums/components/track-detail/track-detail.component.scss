@@ -1,0 +1,42 @@
+:host{
+ position: relative;
+ top: 40%;
+}
+
+.track-detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.main-info{
+    display: flex;
+}
+
+.main-info-image{
+   margin: 0.3em;
+}
+
+.main-info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    width: 50vw;
+}
+
+h4{
+    padding: 0;
+    margin: 0;
+}

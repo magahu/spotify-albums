@@ -1,0 +1,21 @@
+.search-input{
+    border-color: transparent;
+    background-color: #fff;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 6px 48px;
+    text-overflow: ellipsis;
+    width: 20em;
+}
+
+.search-input input{
+    border-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.search-input input:focus{
+    outline-width: 0;
+}

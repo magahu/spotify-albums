@@ -1,0 +1,31 @@
+.album-detail-container{
+    width: 100vw;
+    display: flex;
+}
+
+.album-title{
+    padding: 0;
+    margin: 0;
+}
+
+.album-detail-text{
+    width: 100%;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    background-color: red;
+    background: linear-gradient(63deg, #333, #000);
+}
+
+.album-info{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.album-info li{
+    margin: 1em;
+}
+

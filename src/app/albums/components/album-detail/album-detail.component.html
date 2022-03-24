@@ -1,0 +1,17 @@
+<div class="album-detail-container">
+
+      <img *ngIf="album.images[0]" [src]="album.images[1].url" class="album-detail-img">
+      <span class="album-detail-text">
+         <small>ALBUM</small>
+         <h1 class="album-title">{{album.name}}</h1>
+         <ul class="album-info">
+            <li *ngFor="let artist of album.artists"><small>{{artist.name}}</small></li>
+            <li><small>{{album.release_date | date: 'y'}}</small></li>
+            <li><small>{{album.total_tracks}} canciones</small></li>
+        </ul>
+      </span>
+
+</div>
+
+<app-tracks [id]="album.id"></app-tracks>
+

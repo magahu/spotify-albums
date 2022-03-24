@@ -1,0 +1,60 @@
+:host{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    width: 100vw;
+}
+
+.spotify-header{
+    background-color: #000;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    margin: 0; 
+    padding: 0; 
+    align-items: center; 
+    height: 100%; 
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.navbar-list li{
+    margin: 0 1em;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.spotify-icon{
+    color: #fff;
+    font-size: 35px;
+    width: 35px;
+    height: inherit;
+}
+
+.spotify-icon-logo{
+    width: 50px;
+    margin: 5px;
+}

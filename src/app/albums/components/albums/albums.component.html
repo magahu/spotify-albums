@@ -1,0 +1,21 @@
+<!--<form class="spotify-input">
+    <mat-icon>search</mat-icon>
+    <input type="text" 
+    [(ngModel)]="searchField" 
+    (change)="searchAlbums($event)" 
+    name="searchInput"
+    
+    placeholder="Artistas, canciones o albums">
+</form>-->
+
+
+<!--hacer q salga un output de aui-->
+<app-search-input (sendWords)="searchAlbums($event)"></app-search-input>
+<div class="album-container" >
+<div *ngFor="let item of items" >
+    <!--<img [src]="item.images[0].url">-->
+    <app-album *ngIf="item.album_type === 'album'" [album]="item" ></app-album>
+</div>
+</div>
+
+
