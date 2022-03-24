@@ -1,17 +1,28 @@
-## Token configuration
+#MySpotifyApp
 
-Change the token in auth_token on the following code files:
-- core/services/albums/albums.service
-- core/services/tracks/tracks.service
-For getting this token sing in your Spotify account and 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+
+## Auth configuration
+
+For obtaining the needed token fot this app first sing in your Spotify account and 
 generate the token in the following page: 
 (https://developer.spotify.com/console/get-track/?id=&market=)
 
-This project uses material/cli
+Then, change the token in auth_token on the following code files:
 
-# MySpotifyApp
+*core/services/albums/albums.service
+*core/services/tracks/tracks.service
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+
+##Some views of this app
+
+
+![Albums page](README_SCREENSHOTS/albums.png "Albums page")
+
+![Albums page](README_SCREENSHOTS/album-detail.png "Album detail")
+
+![Albums page](README_SCREENSHOTS/track-detail.png "Track detail")
+
 
 ## Development server
 
