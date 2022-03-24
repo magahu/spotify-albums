@@ -1,4 +1,4 @@
-#MySpotifyApp
+## MySpotifyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
@@ -10,11 +10,11 @@ generate the token in the following page:
 
 Then, change the token in auth_token on the following code files:
 
-*core/services/albums/albums.service
-*core/services/tracks/tracks.service
+- core/services/albums/albums.service
+- core/services/tracks/tracks.service
 
 
-##Some views of this app
+## Some views of this app
 
 
 ![Albums page](README_SCREENSHOTS/albums.png "Albums page")
@@ -23,11 +23,11 @@ Then, change the token in auth_token on the following code files:
 
 ![Albums page](README_SCREENSHOTS/album-detail.png "Album detail")
 
--The album detail shows the tracks list
+- The album detail shows the tracks list
 
 ![Albums page](README_SCREENSHOTS/track-detail.png "Track detail")
 
--This is a basic track detail that is mostly visual
+- This is a basic track detail that is mostly visual
 
 
 ## Development server
